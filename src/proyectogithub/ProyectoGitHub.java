@@ -3,7 +3,7 @@ package proyectogithub;
 
 public class ProyectoGitHub {
 
-    public static String veredicto(String valor1, String valor2){
+    private static String veredicto(String valor1, String valor2){
         if (valor1.equals(valor2)) {
             return "Perfecto. Has tenido buen criterio.";
         }
@@ -11,6 +11,12 @@ public class ProyectoGitHub {
             return "Has mejorado, o te ha llegado el éxito inesperado.";
         }
         return "Te has confiado. Falta realismo.";
+        
+        /**
+
+        * Este método compara la nota esperada con la obtenida
+
+        */
     }
     
     public static void main(String[] args) {
